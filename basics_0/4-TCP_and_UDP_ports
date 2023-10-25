@@ -1,4 +1,4 @@
-#!/bin/bash/env bash
-#Get the list of listening sockets using netstat
+#!/usr/bin/env bash
+#displays information about the processes listening to current TCP connections, listing their PID and the name of the associated program.
 
 netstat
