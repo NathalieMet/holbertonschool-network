@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Check if an IP address is passed as an argument
 
-if [ $# -eq 0 ]
+if [ ! "$1" ]
 then
     echo "Usage: $0 {IP_ADDRESS}"
     exit 1
